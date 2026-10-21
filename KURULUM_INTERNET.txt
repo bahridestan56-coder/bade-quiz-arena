@@ -1,0 +1,28 @@
+BADE QUIZ ARENA v3 — HERKES KENDI INTERNETINDEN KATILABILIR
+
+Bu paket, tek sunucuya baglanan ogrencilerin farkli internetlerden
+yarismasini saglar. Bir bulut barindirma servisine YAYINLAMAK gerekir.
+ZIP dosyasini yalnizca bilgisayarda acmak internet yayini yapmaz.
+
+KOLAY YAYIN (Render):
+1. Bu klasordeki dosyalari kendi GitHub deponuza yukleyin.
+2. https://dashboard.render.com/ adresinde New > Blueprint secin.
+3. GitHub deponuzu baglayin; render.yaml otomatik algilanir.
+4. BADE_ADMIN_PASSWORD icin guclu bir yonetici sifresi belirleyin.
+5. Deploy bitince https://bade-quiz-arena-....onrender.com benzeri
+   size ozel bir adres verilir. Tam adresi Render panelinden alin.
+6. Ogretmen: https://SIZIN-ADRESINIZ/?admin=1
+   Ogrenci: https://SIZIN-ADRESINIZ/
+7. Ogretmen sifresini girer; ekrandaki 6 haneli PIN'i ogrencilerle paylasir.
+8. Ogrenciler mobil veri veya baska Wi-Fi ile girebilir.
+
+ONEMLI SINIRLAR:
+- Ucretsiz Render servisleri bos kaldiginda uyuyabilir; ilk acilis gecikebilir.
+- Bu surumun oyunculari ve sorulari RAM'de tutulur. Sunucu yeniden
+  baslarsa oda, oyuncular ve yuklenen sorular kaybolur. Sorulari JSON
+  dosyasi olarak indirin.
+- Tek oda / tek ogretmen icindir. Buyuk capli siniflar icin yuk testi
+  ve kalici veritabani gerekir.
+- Bu paketin internete yayinini sizin hesabiniza girerek yapmadim.
+- Ogrencilerden gercek isim istemek yerine takma ad kullanilabilir.
+- Ucretsiz servislerin kosullari degisebilir.

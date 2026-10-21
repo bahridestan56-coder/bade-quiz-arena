@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: bade-quiz-arena
+    runtime: python
+    plan: free
+    buildCommand: "echo Build complete"
+    startCommand: "python server.py"
+    envVars:
+      - key: BADE_ADMIN_PASSWORD
+        sync: false
