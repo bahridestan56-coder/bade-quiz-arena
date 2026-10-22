@@ -21,14 +21,62 @@ QUESTIONS=[
  {'q':'Bir şiirde dizelerin sonundaki ses benzerliğine ne denir?','a':['Ölçü','Kafiye','Tema','İmge'],'correct':1},
  {'q':'“Eyvah!” sözcüğünün türü nedir?','a':['Bağlaç','Ünlem','Zamir','Edat'],'correct':1},
 ]
-STATE={'pin':str(random.randint(100000,999999)),'host':secrets.token_urlsafe(32),'phase':'lobby','index':-1,'ends':0,'duration':25,'players':{},'questions':QUESTIONS,'answers':{},'round':0}
+QUESTION_FILE=BASE/'questions.json'
+SETTINGS_FILE=BASE/'settings.json'
+DATABASE_URL=os.environ.get('DATABASE_URL','').strip()
+def db_connection():
+ if not DATABASE_URL:return None
+ import psycopg
+ return psycopg.connect(DATABASE_URL,connect_timeout=8)
+def store_read(key):
+ if not DATABASE_URL:return None
+ with db_connection() as conn:
+  with conn.cursor() as cur:
+   cur.execute('CREATE TABLE IF NOT EXISTS bade_store (key TEXT PRIMARY KEY, value JSONB NOT NULL)')
+   cur.execute('SELECT value FROM bade_store WHERE key=%s',(key,))
+   row=cur.fetchone()
+   return row[0] if row else None
+def store_write(key,value):
+ if DATABASE_URL:
+  with db_connection() as conn:
+   with conn.cursor() as cur:
+    cur.execute('CREATE TABLE IF NOT EXISTS bade_store (key TEXT PRIMARY KEY, value JSONB NOT NULL)')
+    cur.execute('INSERT INTO bade_store(key,value) VALUES (%s,%s::jsonb) ON CONFLICT(key) DO UPDATE SET value=EXCLUDED.value',(key,json.dumps(value,ensure_ascii=False)))
+ else:
+  target=QUESTION_FILE if key=='questions' else SETTINGS_FILE
+  temp=target.with_suffix('.tmp')
+  temp.write_text(json.dumps(value,ensure_ascii=False,indent=2),encoding='utf-8')
+  temp.replace(target)
+def load_settings():
+ try:
+  data=store_read('settings')
+  if data is None and SETTINGS_FILE.exists():data=json.loads(SETTINGS_FILE.read_text(encoding='utf-8'))
+  return data if isinstance(data,dict) else {}
+ except Exception as e:
+  print('Ayarlar okunamadı:',e,flush=True);return {}
+SETTINGS=load_settings()
+
+def load_questions():
+ if QUESTION_FILE.exists():
+  try:
+   data=store_read('questions')
+   if data is None:data=json.loads(QUESTION_FILE.read_text(encoding='utf-8'))
+   if isinstance(data,list) and data:return data
+  except (ValueError,OSError):pass
+ return [dict(q,topic='Genel') for q in QUESTIONS]
+def save_questions(items):
+ store_write('questions',items)
+QUESTIONS=load_questions()
+STATE={'pin':str(random.randint(100000,999999)),'host':secrets.token_urlsafe(32),'phase':'lobby','index':-1,'ends':0,'duration':25,'players':{},'questions':QUESTIONS,'answers':{},'round':0,'limit':min(10,len(QUESTIONS))}
 
 def clean(s,n=36):return str(s).strip()[:n]
 def current():
  i=STATE['index'];return STATE['questions'][i] if 0<=i<len(STATE['questions']) else None
 
 def snapshot(token=None,host=False,origin=''):
- q=current();phase=STATE['phase'];data={'pin':STATE['pin'],'phase':phase,'index':STATE['index'],'total':len(STATE['questions']),'duration':STATE['duration'],'ends':STATE['ends'],'players':[{'name':p['name'],'score':p['score'],'answered':p['id'] in STATE['answers']} for p in STATE['players'].values()],'round':STATE['round']}
+ q=current();phase=STATE['phase'];data={'pin':STATE['pin'],'phase':phase,'index':STATE['index'],'total':STATE['limit'],'duration':STATE['duration'],'ends':STATE['ends'],'players':[{'name':p['name'],'score':p['score'],'answered':p['id'] in STATE['answers']} for p in STATE['players'].values()],
+'round':STATE['round'],'topics':sorted(set(SETTINGS.get('topics',[]))|{q.get('topic','Genel') for q in load_questions()}),'theme':SETTINGS.get('theme',{})}
+
  if q and phase in ('question','reveal','finished'):
   data['question']={'q':q['q'],'a':q['a']}
   if phase!='question':data['question']['correct']=q['correct']
@@ -76,7 +124,7 @@ class Handler(BaseHTTPRequestHandler):
  def do_POST(self):
   try:
    n=int(self.headers.get('Content-Length','0'))
-   if n>150000:raise ValueError('İstek çok büyük')
+   if n>2500000:raise ValueError('İstek çok büyük')
    payload=json.loads(self.rfile.read(n) or b'{}')
    path=urllib.parse.urlsplit(self.path).path
    with LOCK:
@@ -97,38 +145,75 @@ class Handler(BaseHTTPRequestHandler):
      if STATE['phase']!='question' or time.time()>=STATE['ends']:raise ValueError('Cevap süresi doldu')
      if token in STATE['answers']:raise ValueError('Zaten cevapladın')
      choice=payload.get('choice')
-     if type(choice)!=int or choice not in range(4):raise ValueError('Geçersiz seçenek')
+     if type(choice)!=int or choice not in range(len(current()['a'])):raise ValueError('Geçersiz seçenek')
      STATE['answers'][token]={'choice':choice,'at':time.time()};self.send({'ok':True});return
     if token!=STATE['host']:raise ValueError('Öğretmen yetkisi gerekli')
+    if path=='/api/admin-data':
+     self.send({'questions':load_questions(),'settings':SETTINGS,'persistent':bool(DATABASE_URL)});return
+    if path=='/api/admin-settings':
+     theme=payload.get('theme',{})
+     topics=payload.get('topics',[])
+     if not isinstance(theme,dict) or not isinstance(topics,list) or len(topics)>100:raise ValueError('Geçersiz ayarlar')
+     allowed={'accent','background','text','font'}
+     if any(k not in allowed for k in theme):raise ValueError('Geçersiz tema alanı')
+     colors=('accent','background','text')
+     if any(not isinstance(theme.get(k,''),str) or not __import__('re').fullmatch(r'#[0-9a-fA-F]{6}',theme[k]) for k in colors if k in theme):raise ValueError('Renk biçimi geçersiz')
+     if theme.get('font','system') not in ('system','serif','mono','chalk'):raise ValueError('Yazı tipi geçersiz')
+     topics=[clean(t,100) for t in topics if isinstance(t,str) and t.strip()]
+     new_settings={'theme':theme,'topics':list(dict.fromkeys(topics))}
+     store_write('settings',new_settings);SETTINGS.clear();SETTINGS.update(new_settings)
+     self.send({'ok':True});return
     if path=='/api/start':
      if STATE['phase']!='lobby':raise ValueError('Yarışma zaten başladı')
      if not STATE['players']:raise ValueError('Önce en az bir öğrenci katılsın')
-     STATE['duration']=max(10,min(120,int(payload.get('duration',25))));STATE['index']=0;STATE['round']+=1;STATE['phase']='question';STATE['ends']=time.time()+STATE['duration'];STATE['answers']={};self.send({'ok':True});return
+     STATE['duration']=max(10,min(120,int(payload.get('duration',60))))
+     requested=max(10,min(120,int(payload.get('count',10))))
+     topics=payload.get('topics',[])
+     if not isinstance(topics,list) or not topics:raise ValueError('En az bir konu seçin')
+     pool=[q for q in STATE['questions'] if q.get('topic','Genel') in topics]
+     if len(pool)<requested:raise ValueError(f'Seçilen konularda yalnızca {len(pool)} soru var; {requested} soru seçilemez')
+     STATE['questions']=random.sample(pool,requested);STATE['selected_topics']=topics;STATE['limit']=requested;STATE['index']=0;STATE['round']+=1;STATE['phase']='question';STATE['ends']=time.time()+STATE['duration'];STATE['answers']={};self.send({'ok':True});return
     if path=='/api/reveal':
      if STATE['phase']!='question':raise ValueError('Açık soru yok')
      STATE['phase']='reveal';score_round();self.send({'ok':True});return
     if path=='/api/next':
      if STATE['phase']!='reveal':raise ValueError('Önce doğru cevabı göster')
      STATE['index']+=1;STATE['answers']={};STATE['round']+=1
-     if STATE['index']>=len(STATE['questions']):STATE['phase']='finished'
+     if STATE['index']>=STATE['limit']:STATE['phase']='finished'
      else:STATE['phase']='question';STATE['ends']=time.time()+STATE['duration']
      self.send({'ok':True});return
+    if path=='/api/set-count':
+     if STATE['phase'] not in ('question','reveal'):raise ValueError('Yarışma devam etmiyor')
+     requested=int(payload.get('count',STATE['limit']))
+     if requested<10 or requested>120:raise ValueError('Soru sayısı 10–120 arasında olmalı')
+     already=STATE['index']+1
+     if requested<already:raise ValueError(f'En az {already} soru seçmelisiniz')
+     if requested>STATE['limit']:
+      used={q.get('source',q['q']) for q in STATE['questions']}
+      topics=STATE.get('selected_topics',[])
+      pool=[q for q in load_questions() if q.get('topic','Genel') in topics and q.get('source',q['q']) not in used]
+      extra=requested-STATE['limit']
+      if len(pool)<extra:raise ValueError(f'Yalnızca {len(pool)} ek soru var')
+      STATE['questions'].extend(random.sample(pool,extra))
+     else:STATE['questions']=STATE['questions'][:requested]
+     STATE['limit']=requested;self.send({'ok':True,'count':requested});return
     if path=='/api/reset':
      STATE['phase']='lobby';STATE['index']=-1;STATE['ends']=0;STATE['answers']={};STATE['round']+=1
+     STATE['questions']=load_questions();STATE['limit']=min(10,len(STATE['questions']))
      for p in STATE['players'].values():p['score']=0
      self.send({'ok':True});return
     if path=='/api/questions':
      if STATE['phase']!='lobby':raise ValueError('Soruları düzenlemek için lobide ol')
      questions=payload.get('questions')
-     if not isinstance(questions,list) or not 1<=len(questions)<=200:raise ValueError('1–200 soru yüklenebilir')
+     if not isinstance(questions,list) or not 1<=len(questions)<=5000:raise ValueError('1–5000 soru yüklenebilir')
      cleaned=[]
      for q in questions:
       opts=q.get('a',q.get('options',[]));correct=q.get('correct')
-      if not isinstance(opts,list) or len(opts)!=4 or type(correct)!=int or correct not in range(4):raise ValueError('Her soru dört seçenek ve 0–3 doğru indeks içermeli')
-      title=clean(q.get('q',q.get('question','')),350);opts=[clean(x,160) for x in opts]
+      if not isinstance(opts,list) or len(opts) not in (4,5) or type(correct)!=int or correct not in range(len(opts)):raise ValueError('Her soru dört veya beş seçenek ve geçerli doğru cevap indeksi içermeli')
+      title=clean(q.get('q',q.get('question','')),2500);opts=[clean(x,1000) for x in opts]
       if not title or any(not x for x in opts):raise ValueError('Boş soru veya seçenek olamaz')
-      cleaned.append({'q':title,'a':opts,'correct':correct})
-     STATE['questions']=cleaned;self.send({'ok':True,'count':len(cleaned)});return
+      cleaned.append({'q':title,'a':opts,'correct':correct,'topic':clean(q.get('topic','Genel'),100) or 'Genel'})
+     save_questions(cleaned);STATE['questions']=cleaned;STATE['limit']=min(10,len(cleaned));self.send({'ok':True,'count':len(cleaned)});return
     raise ValueError('Bilinmeyen işlem')
   except (ValueError,TypeError,KeyError,json.JSONDecodeError) as e:self.send({'error':str(e)},400)
   except Exception as e:self.send({'error':'Sunucu hatası'},500)
