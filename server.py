@@ -41,7 +41,9 @@ def current():
  i=STATE['index'];return STATE['questions'][i] if 0<=i<len(STATE['questions']) else None
 
 def snapshot(token=None,host=False,origin=''):
- q=current();phase=STATE['phase'];data={'pin':STATE['pin'],'phase':phase,'index':STATE['index'],'total':STATE['limit'],'duration':STATE['duration'],'ends':STATE['ends'],'players':[{'name':p['name'],'score':p['score'],'answered':p['id'] in STATE['answers']} for p in STATE['players'].values()],'round':STATE['round']}
+ q=current();phase=STATE['phase'];data={'pin':STATE['pin'],'phase':phase,'index':STATE['index'],'total':STATE['limit'],'duration':STATE['duration'],'ends':STATE['ends'],'players':[{'name':p['name'],'score':p['score'],'answered':p['id'] in STATE['answers']} for p in STATE['players'].values()],
+'round':STATE['round'],'topics':sorted({q.get('topic','Genel') for q in load_questions()})}
+
  if q and phase in ('question','reveal','finished'):
   data['question']={'q':q['q'],'a':q['a']}
   if phase!='question':data['question']['correct']=q['correct']
