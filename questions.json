@@ -2299,5 +2299,1864 @@
     "correct": 2,
     "topic": "Tiyatro",
     "source": "Test 35, soru 8"
+  },
+  {
+    "q": "“Hakkâri’de Bir Mevsim” adlı eserin yazarı kimdir?",
+    "a": [
+      "Nezihe Meriç",
+      "Ferit Edgü",
+      "Oğuz Atay",
+      "Hulki Aktunç",
+      "Mustafa Necati Sepetçioğlu"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki yazarlardan hangisi “Kimse” adlı eseri kaleme almıştır?",
+    "a": [
+      "Ferit Edgü",
+      "Hulki Aktunç",
+      "Necati Tosuner",
+      "Nezihe Meriç",
+      "Oğuz Atay"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Kaçkınlar” eser–yazar eşleştirmesinde doğru yazar hangisidir?",
+    "a": [
+      "Rasim Özdenören",
+      "Mustafa Necati Sepetçioğlu",
+      "Necati Tosuner",
+      "Ferit Edgü",
+      "Nezihe Meriç"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Bozgun” adlı eserin yazarı kimdir?",
+    "a": [
+      "Ferit Edgü",
+      "Mustafa Necati Sepetçioğlu",
+      "Hulki Aktunç",
+      "Nezihe Meriç",
+      "Rasim Özdenören"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki yazarlardan hangisi “Çığlık” adlı eseri kaleme almıştır?",
+    "a": [
+      "Oğuz Atay",
+      "Necati Tosuner",
+      "Ferit Edgü",
+      "Hulki Aktunç",
+      "Rasim Özdenören"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Doğu Öyküleri” eser–yazar eşleştirmesinde doğru yazar hangisidir?",
+    "a": [
+      "Rasim Özdenören",
+      "Hulki Aktunç",
+      "Ferit Edgü",
+      "Necati Tosuner",
+      "Mustafa Necati Sepetçioğlu"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Bir Gemide” adlı eserin yazarı kimdir?",
+    "a": [
+      "Ferit Edgü",
+      "Rasim Özdenören",
+      "Oğuz Atay",
+      "Necati Tosuner",
+      "Mustafa Necati Sepetçioğlu"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Hastalar ve Işıklar” adlı eserin yazarı kimdir?",
+    "a": [
+      "Rasim Özdenören",
+      "Mustafa Necati Sepetçioğlu",
+      "Ferit Edgü",
+      "Hulki Aktunç",
+      "Nezihe Meriç"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki yazarlardan hangisi “Çözülme” adlı eseri kaleme almıştır?",
+    "a": [
+      "Ferit Edgü",
+      "Necati Tosuner",
+      "Mustafa Necati Sepetçioğlu",
+      "Rasim Özdenören",
+      "Nezihe Meriç"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Çok Sesli Bir Ölüm” eser–yazar eşleştirmesinde doğru yazar hangisidir?",
+    "a": [
+      "Nezihe Meriç",
+      "Rasim Özdenören",
+      "Ferit Edgü",
+      "Oğuz Atay",
+      "Necati Tosuner"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Çarpılmışlar” adlı eserin yazarı kimdir?",
+    "a": [
+      "Ferit Edgü",
+      "Nezihe Meriç",
+      "Hulki Aktunç",
+      "Rasim Özdenören",
+      "Oğuz Atay"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki yazarlardan hangisi “Denize Açılan Kapı” adlı eseri kaleme almıştır?",
+    "a": [
+      "Ferit Edgü",
+      "Nezihe Meriç",
+      "Rasim Özdenören",
+      "Necati Tosuner",
+      "Hulki Aktunç"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Kuyu” eser–yazar eşleştirmesinde doğru yazar hangisidir?",
+    "a": [
+      "Hulki Aktunç",
+      "Oğuz Atay",
+      "Mustafa Necati Sepetçioğlu",
+      "Nezihe Meriç",
+      "Rasim Özdenören"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Toz” adlı eserin yazarı kimdir?",
+    "a": [
+      "Hulki Aktunç",
+      "Necati Tosuner",
+      "Rasim Özdenören",
+      "Mustafa Necati Sepetçioğlu",
+      "Ferit Edgü"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Tutunamayanlar” adlı eserin yazarı kimdir?",
+    "a": [
+      "Oğuz Atay",
+      "Mustafa Necati Sepetçioğlu",
+      "Rasim Özdenören",
+      "Nezihe Meriç",
+      "Hulki Aktunç"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki yazarlardan hangisi “Tehlikeli Oyunlar” adlı eseri kaleme almıştır?",
+    "a": [
+      "Oğuz Atay",
+      "Mustafa Necati Sepetçioğlu",
+      "Ferit Edgü",
+      "Rasim Özdenören",
+      "Hulki Aktunç"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Bir Bilim Adamının Romanı” eser–yazar eşleştirmesinde doğru yazar hangisidir?",
+    "a": [
+      "Hulki Aktunç",
+      "Necati Tosuner",
+      "Mustafa Necati Sepetçioğlu",
+      "Ferit Edgü",
+      "Oğuz Atay"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Korkuyu Beklerken” adlı eserin yazarı kimdir?",
+    "a": [
+      "Rasim Özdenören",
+      "Mustafa Necati Sepetçioğlu",
+      "Hulki Aktunç",
+      "Necati Tosuner",
+      "Oğuz Atay"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki yazarlardan hangisi “Oyunlarla Yaşayanlar” adlı eseri kaleme almıştır?",
+    "a": [
+      "Rasim Özdenören",
+      "Oğuz Atay",
+      "Hulki Aktunç",
+      "Nezihe Meriç",
+      "Necati Tosuner"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Günlük” eser–yazar eşleştirmesinde doğru yazar hangisidir?",
+    "a": [
+      "Oğuz Atay",
+      "Mustafa Necati Sepetçioğlu",
+      "Necati Tosuner",
+      "Ferit Edgü",
+      "Hulki Aktunç"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Eylembilim” adlı eserin yazarı kimdir?",
+    "a": [
+      "Necati Tosuner",
+      "Oğuz Atay",
+      "Rasim Özdenören",
+      "Ferit Edgü",
+      "Mustafa Necati Sepetçioğlu"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Bozbulanık” adlı eserin yazarı kimdir?",
+    "a": [
+      "Mustafa Necati Sepetçioğlu",
+      "Rasim Özdenören",
+      "Ferit Edgü",
+      "Oğuz Atay",
+      "Nezihe Meriç"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki yazarlardan hangisi “Topal Koşma” adlı eseri kaleme almıştır?",
+    "a": [
+      "Rasim Özdenören",
+      "Hulki Aktunç",
+      "Oğuz Atay",
+      "Ferit Edgü",
+      "Nezihe Meriç"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Menekşeli Bilinç” eser–yazar eşleştirmesinde doğru yazar hangisidir?",
+    "a": [
+      "Rasim Özdenören",
+      "Mustafa Necati Sepetçioğlu",
+      "Hulki Aktunç",
+      "Nezihe Meriç",
+      "Necati Tosuner"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Dumanaltı” adlı eserin yazarı kimdir?",
+    "a": [
+      "Rasim Özdenören",
+      "Nezihe Meriç",
+      "Necati Tosuner",
+      "Oğuz Atay",
+      "Hulki Aktunç"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki yazarlardan hangisi “Bir Kara Derin Kuyu” adlı eseri kaleme almıştır?",
+    "a": [
+      "Hulki Aktunç",
+      "Oğuz Atay",
+      "Nezihe Meriç",
+      "Rasim Özdenören",
+      "Ferit Edgü"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Yandırma” eser–yazar eşleştirmesinde doğru yazar hangisidir?",
+    "a": [
+      "Necati Tosuner",
+      "Nezihe Meriç",
+      "Hulki Aktunç",
+      "Mustafa Necati Sepetçioğlu",
+      "Ferit Edgü"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Korsan Çıkmazı” adlı eserin yazarı kimdir?",
+    "a": [
+      "Rasim Özdenören",
+      "Mustafa Necati Sepetçioğlu",
+      "Oğuz Atay",
+      "Hulki Aktunç",
+      "Nezihe Meriç"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Kilit” adlı eserin yazarı kimdir?",
+    "a": [
+      "Rasim Özdenören",
+      "Oğuz Atay",
+      "Hulki Aktunç",
+      "Mustafa Necati Sepetçioğlu",
+      "Nezihe Meriç"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki yazarlardan hangisi “Anahtar” adlı eseri kaleme almıştır?",
+    "a": [
+      "Rasim Özdenören",
+      "Mustafa Necati Sepetçioğlu",
+      "Hulki Aktunç",
+      "Oğuz Atay",
+      "Ferit Edgü"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Kapı” eser–yazar eşleştirmesinde doğru yazar hangisidir?",
+    "a": [
+      "Ferit Edgü",
+      "Mustafa Necati Sepetçioğlu",
+      "Hulki Aktunç",
+      "Oğuz Atay",
+      "Nezihe Meriç"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Konak” adlı eserin yazarı kimdir?",
+    "a": [
+      "Mustafa Necati Sepetçioğlu",
+      "Rasim Özdenören",
+      "Necati Tosuner",
+      "Hulki Aktunç",
+      "Ferit Edgü"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki yazarlardan hangisi “Çatı” adlı eseri kaleme almıştır?",
+    "a": [
+      "Rasim Özdenören",
+      "Hulki Aktunç",
+      "Oğuz Atay",
+      "Nezihe Meriç",
+      "Mustafa Necati Sepetçioğlu"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Üçler Yediler Kırklar” eser–yazar eşleştirmesinde doğru yazar hangisidir?",
+    "a": [
+      "Necati Tosuner",
+      "Mustafa Necati Sepetçioğlu",
+      "Ferit Edgü",
+      "Nezihe Meriç",
+      "Oğuz Atay"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Ve Çanakkale: Geldiler” adlı eserin yazarı kimdir?",
+    "a": [
+      "Mustafa Necati Sepetçioğlu",
+      "Nezihe Meriç",
+      "Oğuz Atay",
+      "Ferit Edgü",
+      "Rasim Özdenören"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Özgürlük Masalı” adlı eserin yazarı kimdir?",
+    "a": [
+      "Necati Tosuner",
+      "Hulki Aktunç",
+      "Rasim Özdenören",
+      "Oğuz Atay",
+      "Ferit Edgü"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki yazarlardan hangisi “Çıkmazda” adlı eseri kaleme almıştır?",
+    "a": [
+      "Ferit Edgü",
+      "Necati Tosuner",
+      "Rasim Özdenören",
+      "Nezihe Meriç",
+      "Mustafa Necati Sepetçioğlu"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Kambur” eser–yazar eşleştirmesinde doğru yazar hangisidir?",
+    "a": [
+      "Ferit Edgü",
+      "Mustafa Necati Sepetçioğlu",
+      "Rasim Özdenören",
+      "Hulki Aktunç",
+      "Necati Tosuner"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Sisli” adlı eserin yazarı kimdir?",
+    "a": [
+      "Oğuz Atay",
+      "Rasim Özdenören",
+      "Necati Tosuner",
+      "Ferit Edgü",
+      "Mustafa Necati Sepetçioğlu"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki yazarlardan hangisi “Sancı.. Sancı...” adlı eseri kaleme almıştır?",
+    "a": [
+      "Oğuz Atay",
+      "Necati Tosuner",
+      "Hulki Aktunç",
+      "Mustafa Necati Sepetçioğlu",
+      "Rasim Özdenören"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Yalnızlıktan Devren Kiralık” eser–yazar eşleştirmesinde doğru yazar hangisidir?",
+    "a": [
+      "Mustafa Necati Sepetçioğlu",
+      "Rasim Özdenören",
+      "Ferit Edgü",
+      "Necati Tosuner",
+      "Hulki Aktunç"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Güneş Giderken” adlı eserin yazarı kimdir?",
+    "a": [
+      "Mustafa Necati Sepetçioğlu",
+      "Nezihe Meriç",
+      "Ferit Edgü",
+      "Necati Tosuner",
+      "Oğuz Atay"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Gidenler Dönmeyenler” adlı eserin yazarı kimdir?",
+    "a": [
+      "Oğuz Atay",
+      "Rasim Özdenören",
+      "Necati Tosuner",
+      "Mustafa Necati Sepetçioğlu",
+      "Hulki Aktunç"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki yazarlardan hangisi “Kurtarılmış Haziran” adlı eseri kaleme almıştır?",
+    "a": [
+      "Ferit Edgü",
+      "Necati Tosuner",
+      "Hulki Aktunç",
+      "Nezihe Meriç",
+      "Oğuz Atay"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Ten ve Gölge” eser–yazar eşleştirmesinde doğru yazar hangisidir?",
+    "a": [
+      "Ferit Edgü",
+      "Hulki Aktunç",
+      "Nezihe Meriç",
+      "Necati Tosuner",
+      "Mustafa Necati Sepetçioğlu"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Bir Yer Göstericinin Hayatı” adlı eserin yazarı kimdir?",
+    "a": [
+      "Ferit Edgü",
+      "Oğuz Atay",
+      "Nezihe Meriç",
+      "Hulki Aktunç",
+      "Necati Tosuner"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki yazarlardan hangisi “Güz Her Şeyi Bilir” adlı eseri kaleme almıştır?",
+    "a": [
+      "Oğuz Atay",
+      "Rasim Özdenören",
+      "Mustafa Necati Sepetçioğlu",
+      "Nezihe Meriç",
+      "Hulki Aktunç"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Bir Çağ Yangını” eser–yazar eşleştirmesinde doğru yazar hangisidir?",
+    "a": [
+      "Ferit Edgü",
+      "Hulki Aktunç",
+      "Nezihe Meriç",
+      "Mustafa Necati Sepetçioğlu",
+      "Necati Tosuner"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Son İki Eylül” adlı eserin yazarı kimdir?",
+    "a": [
+      "Rasim Özdenören",
+      "Oğuz Atay",
+      "Hulki Aktunç",
+      "Nezihe Meriç",
+      "Ferit Edgü"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki sanatçılardan hangisinin öykü/roman anlayışı “küçürek öyküde yoğun ve eksiltili anlatım” özelliğiyle özellikle ilişkilidir?",
+    "a": [
+      "Ferit Edgü",
+      "Necati Tosuner",
+      "Mustafa Necati Sepetçioğlu",
+      "Rasim Özdenören",
+      "Oğuz Atay"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Ferit Edgü”ın sanat anlayışı bakımından 2. değerlendirmede doğru özellik hangisidir?",
+    "a": [
+      "ailedeki çözülme ve yabancılaşmayı sorgulama",
+      "varoluşçu sorgulama ve yabancılaşma",
+      "Anadolu’nun Türkleşmesini ve devletleşmeyi anlatma",
+      "ironi, üstkurmaca ve metinlerarasılık",
+      "iç konuşma ve bilinç akışından yararlanma"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki sanatçılardan hangisinin öykü/roman anlayışı “Hakkâri deneyiminden beslenen birey-gerçeklik ilişkisi” özelliğiyle özellikle ilişkilidir?",
+    "a": [
+      "Oğuz Atay",
+      "Nezihe Meriç",
+      "Hulki Aktunç",
+      "Ferit Edgü",
+      "Mustafa Necati Sepetçioğlu"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Ferit Edgü”ın sanat anlayışı bakımından 4. değerlendirmede doğru özellik hangisidir?",
+    "a": [
+      "geleneksel anlatı ile modern biçim arayışlarını birleştirme",
+      "Dünkü Türkiye dizisiyle nehir roman oluşturma",
+      "modern anlatım teknikleriyle iç çatışmaları ele alma",
+      "az sözle çok anlam kuran şiirsel dil",
+      "bilinç akışı ve iç konuşmadan yararlanma"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki sanatçılardan hangisinin öykü/roman anlayışı “bireyin ruhsal dünyasını ve manevi arayışlarını işleme” özelliğiyle özellikle ilişkilidir?",
+    "a": [
+      "Hulki Aktunç",
+      "Rasim Özdenören",
+      "Ferit Edgü",
+      "Mustafa Necati Sepetçioğlu",
+      "Necati Tosuner"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Rasim Özdenören”ın sanat anlayışı bakımından 2. değerlendirmede doğru özellik hangisidir?",
+    "a": [
+      "varoluşçu sorgulama ve yabancılaşma",
+      "ironi, üstkurmaca ve metinlerarasılık",
+      "ailedeki çözülme ve yabancılaşmayı sorgulama",
+      "Anadolu’nun Türkleşmesini ve devletleşmeyi anlatma",
+      "İstanbul’un belleğini ve değişen insan dokusunu işleme"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki sanatçılardan hangisinin öykü/roman anlayışı “Mavera çevresiyle ilişkili öykücülük” özelliğiyle özellikle ilişkilidir?",
+    "a": [
+      "Oğuz Atay",
+      "Nezihe Meriç",
+      "Mustafa Necati Sepetçioğlu",
+      "Rasim Özdenören",
+      "Hulki Aktunç"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Rasim Özdenören”ın sanat anlayışı bakımından 4. değerlendirmede doğru özellik hangisidir?",
+    "a": [
+      "modern anlatım teknikleriyle iç çatışmaları ele alma",
+      "Sait Faik’ten izler taşıyan gözlemci anlatım",
+      "geleneksel anlatı ile modern biçim arayışlarını birleştirme",
+      "az sözle çok anlam kuran şiirsel dil",
+      "Dünkü Türkiye dizisiyle nehir roman oluşturma"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki sanatçılardan hangisinin öykü/roman anlayışı “modernist ve postmodernist anlatım arayışları” özelliğiyle özellikle ilişkilidir?",
+    "a": [
+      "Hulki Aktunç",
+      "Necati Tosuner",
+      "Mustafa Necati Sepetçioğlu",
+      "Oğuz Atay",
+      "Nezihe Meriç"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Oğuz Atay”ın sanat anlayışı bakımından 2. değerlendirmede doğru özellik hangisidir?",
+    "a": [
+      "ironi, üstkurmaca ve metinlerarasılık",
+      "Anadolu’nun Türkleşmesini ve devletleşmeyi anlatma",
+      "İstanbul’un belleğini ve değişen insan dokusunu işleme",
+      "ailedeki çözülme ve yabancılaşmayı sorgulama",
+      "varoluşçu sorgulama ve yabancılaşma"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki sanatçılardan hangisinin öykü/roman anlayışı “bireyin topluma yabancılaşması ve tutunamaması” özelliğiyle özellikle ilişkilidir?",
+    "a": [
+      "Oğuz Atay",
+      "Mustafa Necati Sepetçioğlu",
+      "Hulki Aktunç",
+      "Nezihe Meriç",
+      "Necati Tosuner"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Oğuz Atay”ın sanat anlayışı bakımından 4. değerlendirmede doğru özellik hangisidir?",
+    "a": [
+      "gündelik hayatı bireyin iç dünyasıyla ilişkilendirme",
+      "bilinç akışı ve iç konuşmadan yararlanma",
+      "Dünkü Türkiye dizisiyle nehir roman oluşturma",
+      "Sait Faik’ten izler taşıyan gözlemci anlatım",
+      "az sözle çok anlam kuran şiirsel dil"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki sanatçılardan hangisinin öykü/roman anlayışı “kadının toplumdaki konumunu ve kimlik arayışını işleme” özelliğiyle özellikle ilişkilidir?",
+    "a": [
+      "Mustafa Necati Sepetçioğlu",
+      "Hulki Aktunç",
+      "Nezihe Meriç",
+      "Rasim Özdenören",
+      "Ferit Edgü"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Nezihe Meriç”ın sanat anlayışı bakımından 2. değerlendirmede doğru özellik hangisidir?",
+    "a": [
+      "ironi, üstkurmaca ve metinlerarasılık",
+      "Anadolu’nun Türkleşmesini ve devletleşmeyi anlatma",
+      "iç konuşma ve bilinç akışından yararlanma",
+      "varoluşçu sorgulama ve yabancılaşma",
+      "İstanbul’un belleğini ve değişen insan dokusunu işleme"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki sanatçılardan hangisinin öykü/roman anlayışı “1950 kuşağında yenilikçi öykü anlayışı” özelliğiyle özellikle ilişkilidir?",
+    "a": [
+      "Mustafa Necati Sepetçioğlu",
+      "Ferit Edgü",
+      "Nezihe Meriç",
+      "Necati Tosuner",
+      "Hulki Aktunç"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Nezihe Meriç”ın sanat anlayışı bakımından 4. değerlendirmede doğru özellik hangisidir?",
+    "a": [
+      "bilinç akışı ve iç konuşmadan yararlanma",
+      "Dünkü Türkiye dizisiyle nehir roman oluşturma",
+      "geleneksel anlatı ile modern biçim arayışlarını birleştirme",
+      "Sait Faik’ten izler taşıyan gözlemci anlatım",
+      "gündelik hayatı bireyin iç dünyasıyla ilişkilendirme"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki sanatçılardan hangisinin öykü/roman anlayışı “tarihî roman ve millî tarih bilinci” özelliğiyle özellikle ilişkilidir?",
+    "a": [
+      "Oğuz Atay",
+      "Ferit Edgü",
+      "Mustafa Necati Sepetçioğlu",
+      "Nezihe Meriç",
+      "Hulki Aktunç"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Mustafa Necati Sepetçioğlu”ın sanat anlayışı bakımından 2. değerlendirmede doğru özellik hangisidir?",
+    "a": [
+      "ailedeki çözülme ve yabancılaşmayı sorgulama",
+      "İstanbul’un belleğini ve değişen insan dokusunu işleme",
+      "ironi, üstkurmaca ve metinlerarasılık",
+      "varoluşçu sorgulama ve yabancılaşma",
+      "Anadolu’nun Türkleşmesini ve devletleşmeyi anlatma"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki sanatçılardan hangisinin öykü/roman anlayışı “millî ve manevi değerleri tarihî kurguya taşıma” özelliğiyle özellikle ilişkilidir?",
+    "a": [
+      "Ferit Edgü",
+      "Necati Tosuner",
+      "Oğuz Atay",
+      "Mustafa Necati Sepetçioğlu",
+      "Rasim Özdenören"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Mustafa Necati Sepetçioğlu”ın sanat anlayışı bakımından 4. değerlendirmede doğru özellik hangisidir?",
+    "a": [
+      "geleneksel anlatı ile modern biçim arayışlarını birleştirme",
+      "modern anlatım teknikleriyle iç çatışmaları ele alma",
+      "Sait Faik’ten izler taşıyan gözlemci anlatım",
+      "Dünkü Türkiye dizisiyle nehir roman oluşturma",
+      "az sözle çok anlam kuran şiirsel dil"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki sanatçılardan hangisinin öykü/roman anlayışı “yalnızlık, dışlanma ve bireyin iç dünyası” özelliğiyle özellikle ilişkilidir?",
+    "a": [
+      "Oğuz Atay",
+      "Nezihe Meriç",
+      "Necati Tosuner",
+      "Ferit Edgü",
+      "Rasim Özdenören"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Necati Tosuner”ın sanat anlayışı bakımından 2. değerlendirmede doğru özellik hangisidir?",
+    "a": [
+      "sıradan insanların yaşamını gerçekçi bakışla işleme",
+      "varoluşçu sorgulama ve yabancılaşma",
+      "ironi, üstkurmaca ve metinlerarasılık",
+      "Anadolu’nun Türkleşmesini ve devletleşmeyi anlatma",
+      "ailedeki çözülme ve yabancılaşmayı sorgulama"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki sanatçılardan hangisinin öykü/roman anlayışı “bedensel farklılığın doğurduğu ruhsal çatışmalar” özelliğiyle özellikle ilişkilidir?",
+    "a": [
+      "Ferit Edgü",
+      "Hulki Aktunç",
+      "Rasim Özdenören",
+      "Necati Tosuner",
+      "Oğuz Atay"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Necati Tosuner”ın sanat anlayışı bakımından 4. değerlendirmede doğru özellik hangisidir?",
+    "a": [
+      "Dünkü Türkiye dizisiyle nehir roman oluşturma",
+      "bilinç akışı ve iç konuşmadan yararlanma",
+      "az sözle çok anlam kuran şiirsel dil",
+      "Sait Faik’ten izler taşıyan gözlemci anlatım",
+      "modern anlatım teknikleriyle iç çatışmaları ele alma"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki sanatçılardan hangisinin öykü/roman anlayışı “özgün dil, imge ve çağrışım arayışları” özelliğiyle özellikle ilişkilidir?",
+    "a": [
+      "Nezihe Meriç",
+      "Hulki Aktunç",
+      "Necati Tosuner",
+      "Mustafa Necati Sepetçioğlu",
+      "Rasim Özdenören"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Hulki Aktunç”ın sanat anlayışı bakımından 2. değerlendirmede doğru özellik hangisidir?",
+    "a": [
+      "ailedeki çözülme ve yabancılaşmayı sorgulama",
+      "sıradan insanların yaşamını gerçekçi bakışla işleme",
+      "Anadolu’nun Türkleşmesini ve devletleşmeyi anlatma",
+      "iç konuşma ve bilinç akışından yararlanma",
+      "İstanbul’un belleğini ve değişen insan dokusunu işleme"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki sanatçılardan hangisinin öykü/roman anlayışı “toplumsal gerçekliği bireyin deneyiminden anlatma” özelliğiyle özellikle ilişkilidir?",
+    "a": [
+      "Mustafa Necati Sepetçioğlu",
+      "Ferit Edgü",
+      "Rasim Özdenören",
+      "Oğuz Atay",
+      "Hulki Aktunç"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Hulki Aktunç”ın sanat anlayışı bakımından 4. değerlendirmede doğru özellik hangisidir?",
+    "a": [
+      "gündelik hayatı bireyin iç dünyasıyla ilişkilendirme",
+      "geleneksel anlatı ile modern biçim arayışlarını birleştirme",
+      "az sözle çok anlam kuran şiirsel dil",
+      "Sait Faik’ten izler taşıyan gözlemci anlatım",
+      "bilinç akışı ve iç konuşmadan yararlanma"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Edebî Anlayış ve Üslup",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki 1. eser çiftleri grubundan hangisi Ferit Edgü’a aittir?",
+    "a": [
+      "Kilit / Anahtar",
+      "Özgürlük Masalı / Çıkmazda",
+      "Hastalar ve Işıklar / Çözülme",
+      "Gidenler Dönmeyenler / Kurtarılmış Haziran",
+      "Hakkâri’de Bir Mevsim / Kimse"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki 2. eser çiftleri grubundan hangisi Ferit Edgü’a aittir?",
+    "a": [
+      "Menekşeli Bilinç / Dumanaltı",
+      "Bir Bilim Adamının Romanı / Korkuyu Beklerken",
+      "Ten ve Gölge / Bir Yer Göstericinin Hayatı",
+      "Kaçkınlar / Bozgun",
+      "Kapı / Konak"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki 1. eser çiftleri grubundan hangisi Rasim Özdenören’a aittir?",
+    "a": [
+      "Tutunamayanlar / Tehlikeli Oyunlar",
+      "Hastalar ve Işıklar / Çözülme",
+      "Özgürlük Masalı / Çıkmazda",
+      "Bozbulanık / Topal Koşma",
+      "Kilit / Anahtar"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki 2. eser çiftleri grubundan hangisi Rasim Özdenören’a aittir?",
+    "a": [
+      "Kambur / Sisli",
+      "Menekşeli Bilinç / Dumanaltı",
+      "Kapı / Konak",
+      "Bir Bilim Adamının Romanı / Korkuyu Beklerken",
+      "Çok Sesli Bir Ölüm / Çarpılmışlar"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki 1. eser çiftleri grubundan hangisi Oğuz Atay’a aittir?",
+    "a": [
+      "Bozbulanık / Topal Koşma",
+      "Hakkâri’de Bir Mevsim / Kimse",
+      "Tutunamayanlar / Tehlikeli Oyunlar",
+      "Gidenler Dönmeyenler / Kurtarılmış Haziran",
+      "Özgürlük Masalı / Çıkmazda"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki 2. eser çiftleri grubundan hangisi Oğuz Atay’a aittir?",
+    "a": [
+      "Kapı / Konak",
+      "Kambur / Sisli",
+      "Menekşeli Bilinç / Dumanaltı",
+      "Bir Bilim Adamının Romanı / Korkuyu Beklerken",
+      "Çok Sesli Bir Ölüm / Çarpılmışlar"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki 1. eser çiftleri grubundan hangisi Nezihe Meriç’a aittir?",
+    "a": [
+      "Özgürlük Masalı / Çıkmazda",
+      "Hastalar ve Işıklar / Çözülme",
+      "Tutunamayanlar / Tehlikeli Oyunlar",
+      "Bozbulanık / Topal Koşma",
+      "Gidenler Dönmeyenler / Kurtarılmış Haziran"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki 2. eser çiftleri grubundan hangisi Nezihe Meriç’a aittir?",
+    "a": [
+      "Ten ve Gölge / Bir Yer Göstericinin Hayatı",
+      "Çok Sesli Bir Ölüm / Çarpılmışlar",
+      "Kaçkınlar / Bozgun",
+      "Kapı / Konak",
+      "Menekşeli Bilinç / Dumanaltı"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki 1. eser çiftleri grubundan hangisi Mustafa Necati Sepetçioğlu’a aittir?",
+    "a": [
+      "Özgürlük Masalı / Çıkmazda",
+      "Hakkâri’de Bir Mevsim / Kimse",
+      "Gidenler Dönmeyenler / Kurtarılmış Haziran",
+      "Kilit / Anahtar",
+      "Bozbulanık / Topal Koşma"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki 2. eser çiftleri grubundan hangisi Mustafa Necati Sepetçioğlu’a aittir?",
+    "a": [
+      "Ten ve Gölge / Bir Yer Göstericinin Hayatı",
+      "Çok Sesli Bir Ölüm / Çarpılmışlar",
+      "Menekşeli Bilinç / Dumanaltı",
+      "Kapı / Konak",
+      "Kambur / Sisli"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki 1. eser çiftleri grubundan hangisi Necati Tosuner’a aittir?",
+    "a": [
+      "Tutunamayanlar / Tehlikeli Oyunlar",
+      "Gidenler Dönmeyenler / Kurtarılmış Haziran",
+      "Hakkâri’de Bir Mevsim / Kimse",
+      "Özgürlük Masalı / Çıkmazda",
+      "Hastalar ve Işıklar / Çözülme"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki 2. eser çiftleri grubundan hangisi Necati Tosuner’a aittir?",
+    "a": [
+      "Kaçkınlar / Bozgun",
+      "Kapı / Konak",
+      "Çok Sesli Bir Ölüm / Çarpılmışlar",
+      "Menekşeli Bilinç / Dumanaltı",
+      "Kambur / Sisli"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki 1. eser çiftleri grubundan hangisi Hulki Aktunç’a aittir?",
+    "a": [
+      "Hastalar ve Işıklar / Çözülme",
+      "Özgürlük Masalı / Çıkmazda",
+      "Hakkâri’de Bir Mevsim / Kimse",
+      "Gidenler Dönmeyenler / Kurtarılmış Haziran",
+      "Tutunamayanlar / Tehlikeli Oyunlar"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki 2. eser çiftleri grubundan hangisi Hulki Aktunç’a aittir?",
+    "a": [
+      "Çok Sesli Bir Ölüm / Çarpılmışlar",
+      "Bir Bilim Adamının Romanı / Korkuyu Beklerken",
+      "Kambur / Sisli",
+      "Ten ve Gölge / Bir Yer Göstericinin Hayatı",
+      "Kapı / Konak"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Kilit–Anahtar–Kapı” roman üçlemesi Türk tarihinin hangi dönemine odaklanır?",
+    "a": [
+      "Cumhuriyet’in ilk yılları",
+      "Tanzimat Fermanı sonrası",
+      "II. Meşrutiyet dönemi",
+      "Lale Devri",
+      "Selçuklu dönemi ve Anadolu’nun Türkleşmesi"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Tarihî Roman",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Konak–Çatı–Üçler Yediler Kırklar” üçlemesi hangi süreci anlatır?",
+    "a": [
+      "Osmanlı Devleti’nin kuruluş süreci",
+      "Cumhuriyet’in çok partili dönemi",
+      "Tanzimat modernleşmesi",
+      "Selçuklu öncesi Orta Asya",
+      "Millî Mücadele yılları"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Tarihî Roman",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Korsan Çıkmazı” adlı eserin türü nedir?",
+    "a": [
+      "Roman",
+      "Deneme",
+      "Tiyatro",
+      "Masal",
+      "Şiir"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Korkuyu Beklerken” adlı eserin türü nedir?",
+    "a": [
+      "Söyleşi",
+      "Tiyatro",
+      "Öykü",
+      "Destan",
+      "Roman"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Tanıklarıyla Türkçenin Büyük Argo Sözlüğü” kime aittir?",
+    "a": [
+      "Ferit Edgü",
+      "Oğuz Atay",
+      "Mustafa Necati Sepetçioğlu",
+      "Rasim Özdenören",
+      "Hulki Aktunç"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Ferit Edgü’nün Hakkâri deneyiminden izler taşıyan romanı hangisidir?",
+    "a": [
+      "Tutunamayanlar",
+      "Hakkâri’de Bir Mevsim",
+      "Korsan Çıkmazı",
+      "Çözülme",
+      "Kilit"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Rasim Özdenören’in ilk öykü kitabı hangisidir?",
+    "a": [
+      "Bozbulanık",
+      "Hastalar ve Işıklar",
+      "Kambur",
+      "Kaçkınlar",
+      "Gidenler Dönmeyenler"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Yazarlar ve Eserler",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Bir metinde olayların oluş sırasına göre aktarılması hangi anlatım biçimidir?",
+    "a": [
+      "Tartışma",
+      "Açıklama",
+      "Betimleme",
+      "Tanımlama",
+      "Öyküleme"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Bir mekânın renk, biçim ve duyularla okurun zihninde canlandırılması hangi anlatım biçimidir?",
+    "a": [
+      "Betimleme",
+      "Açıklama",
+      "Öyküleme",
+      "Tartışma",
+      "Özetleme"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Bir düşüncenin gerekçelerle savunulup karşı görüşlerin çürütülmesi hangi anlatım biçimidir?",
+    "a": [
+      "Betimleme",
+      "Tartışma",
+      "Gösterme",
+      "Açıklama",
+      "Öyküleme"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Bir kavram hakkında bilgi verme amacı taşıyan anlatım biçimi hangisidir?",
+    "a": [
+      "Öyküleme",
+      "Açıklama",
+      "İç monolog",
+      "Tartışma",
+      "Betimleme"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Kahramanın düşüncelerinin araya anlatıcı girmeden kendi kendine konuşur gibi verilmesi hangi tekniktir?",
+    "a": [
+      "Betimleme",
+      "Özetleme",
+      "Diyalog",
+      "Geriye dönüş",
+      "İç monolog"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Kahramanın zihninden geçenlerin çağrışımlarla, düzensiz ve kesintili aktarılması hangi tekniktir?",
+    "a": [
+      "Açıklama",
+      "İç çözümleme",
+      "Bilinç akışı",
+      "Özetleme",
+      "Tartışma"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Anlatıcının karakterin duygu ve düşüncelerini açıklayarak aktarması hangi tekniktir?",
+    "a": [
+      "Montaj",
+      "Bilinç akışı",
+      "İç çözümleme",
+      "Leitmotiv",
+      "Diyalog"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Öyküde şimdiki zaman anlatılırken geçmişte yaşanmış bir olayın aktarılması hangi tekniktir?",
+    "a": [
+      "Geriye dönüş",
+      "Tartışma",
+      "İç monolog",
+      "Gösterme",
+      "Betimleme"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Bir sözcüğün, cümlenin ya da motifin metin boyunca yinelenmesi hangi teknikle ilişkilidir?",
+    "a": [
+      "Tartışma",
+      "Geriye dönüş",
+      "İç çözümleme",
+      "Leitmotiv",
+      "Öyküleme"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Bir metne başka bir metinden alıntı veya parça yerleştirilmesi hangi teknikle ilişkilidir?",
+    "a": [
+      "Montaj",
+      "Betimleme",
+      "Bilinç akışı",
+      "İç monolog",
+      "Özetleme"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Anlatıcının olaylara müdahale etmeden karakterlerin konuşma ve davranışlarını öne çıkarması hangi tekniktir?",
+    "a": [
+      "Tartışma",
+      "İç çözümleme",
+      "Özetleme",
+      "Açıklama",
+      "Gösterme"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Küçürek hikâyenin ayırt edici özelliği hangisidir?",
+    "a": [
+      "Çok sayıda yan olay içermesi",
+      "Az sözle yoğun anlam oluşturması",
+      "Geniş şahıs kadrosu kurması",
+      "Ayrıntılı zaman çizelgesi sunması",
+      "Uzun olay zincirine dayanması"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Küçürek hikâyede aşağıdakilerden hangisi genellikle sınırlıdır?",
+    "a": [
+      "Anlam yoğunluğu",
+      "Okur yorumu",
+      "Çağrışım",
+      "Kişi, zaman ve mekân ayrıntıları",
+      "İmgesel anlatım"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Yola çıktım; yol yoktu. Bir yol açıp ilerledim.” türü bir küçürek hikâyede öne çıkan tema hangisidir?",
+    "a": [
+      "Teknolojik ilerleme",
+      "Saray yaşamı",
+      "Varoluşsal arayış ve mücadele",
+      "Kahramanlık destanı",
+      "Doğa bilimleri"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Yolda” adlı küçürek hikâyenin yazarı kimdir?",
+    "a": [
+      "Rasim Özdenören",
+      "Ferit Edgü",
+      "Oğuz Atay",
+      "Hulki Aktunç",
+      "Nezihe Meriç"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Bir hikâyenin “konu”su ile “tema”sı arasındaki temel fark nedir?",
+    "a": [
+      "Konu yalnızca şiirde bulunur.",
+      "Konu somut olay/durum, tema soyut temel duygu veya düşüncedir.",
+      "İkisi tamamen aynı kavramdır.",
+      "Tema karakterlerin adlarıdır.",
+      "Tema olayların geçtiği yer, konu anlatıcıdır."
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Babası yıllardır uzaktaydı; çocuk her akşam mektup bekliyordu.” parçasının baskın teması hangisidir?",
+    "a": [
+      "Gurur",
+      "Mizah",
+      "Özlem",
+      "Zafer",
+      "İntikam"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Ellerin mektubu gelmiş okunur / Benim yüreğime hançer sokulur.” dizelerinin duygu dünyasıyla ilişkisi hangi bilim dalına örnektir?",
+    "a": [
+      "Astronomi",
+      "Fizik",
+      "Psikoloji",
+      "Coğrafya",
+      "Matematik"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Vagon evin penceresinde kırmızı karanfiller duruyordu.” cümlesinde hangi anlatım biçimi ağır basar?",
+    "a": [
+      "Öyküleme",
+      "Açıklama",
+      "Betimleme",
+      "Tartışma",
+      "Kanıtlama"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Sabah uyandım, bahçeye çıktım, çiçekleri suladım.” cümlesinde hangi anlatım biçimi ağır basar?",
+    "a": [
+      "Öyküleme",
+      "Tanımlama",
+      "Tartışma",
+      "Betimleme",
+      "Açıklama"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Süveyş Kanalı” adının ek almış doğru yazımı hangisidir?",
+    "a": [
+      "Süveyş kanalındaki",
+      "Süveyş kanalı’ndaki",
+      "Süveyş Kanalındaki",
+      "Süveyş Kanalı’ndaki",
+      "Süveyş Kanalıdaki"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Alt etmek” birleşik fiilinin doğru yazımı hangisidir?",
+    "a": [
+      "altetmek",
+      "alttetmek",
+      "alt-etmek",
+      "alt etmek",
+      "alt Etmek"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Belgisiz sıfatın doğru yazımı hangisidir?",
+    "a": [
+      "bir Kaç",
+      "birkaç",
+      "bir kaç",
+      "bir-kaç",
+      "bırkaç"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Neden bildiren bağlacın doğru yazımı hangisidir?",
+    "a": [
+      "çünki",
+      "çün ki",
+      "çünkii",
+      "çün-kü",
+      "çünkü"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Almanya” özel adına yönelme eki getirildiğinde doğru yazım hangisidir?",
+    "a": [
+      "Almanya’ya",
+      "Almanyaya",
+      "Almanya ya",
+      "Almanya ya’",
+      "Almanya’yaa"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Divânu Lugâti’t-Türk’ün yazarı kimdir?",
+    "a": [
+      "Şemseddin Sami",
+      "Yusuf Has Hâcib",
+      "Kaşgarlı Mahmud",
+      "Ahmed Vefik Paşa",
+      "Ali Şîr Nevâî"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Lehçe-i Osmânî adlı sözlüğün yazarı kimdir?",
+    "a": [
+      "Ahmed Vefik Paşa",
+      "Kaşgarlı Mahmud",
+      "Ali Şîr Nevâî",
+      "Yusuf Has Hâcib",
+      "Şemseddin Sami"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Kâmûs-ı Türkî adlı sözlüğün yazarı kimdir?",
+    "a": [
+      "Yusuf Has Hâcib",
+      "Şemseddin Sami",
+      "Ahmed Vefik Paşa",
+      "Kaşgarlı Mahmud",
+      "Ali Şîr Nevâî"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Gözlerini uzaklara dikti.” cümlesinde “dikmek” sözcüğü hangi anlamdadır?",
+    "a": [
+      "Terim anlam",
+      "Yansıma anlam",
+      "Temel anlam",
+      "Mecaz anlam",
+      "Özel ad"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Annesi lambanın fitilini kıstı.” cümlesinde eylemi gerçekleştiren kişi kimdir?",
+    "a": [
+      "Murat",
+      "Baba",
+      "Komşu",
+      "Anlatıcı",
+      "Anne"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "“Murat, babasının mektubuna baktı; annesi sessiz kaldı.” parçasında temel çatışma hangisidir?",
+    "a": [
+      "Bilim ile din",
+      "Savaş ile barış",
+      "Şehir ile köy",
+      "Doğa ile teknoloji",
+      "Özlem ile kabullenme arasındaki gerilim"
+    ],
+    "correct": 4,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Yalnızca kendi gördüklerini ve yaşadıklarını anlatan “ben” anlatıcı hangi bakış açısıyla ilişkilidir?",
+    "a": [
+      "Gözlemci üçüncü kişi",
+      "Nesnel anlatıcı",
+      "Kahraman bakış açısı",
+      "Çoğul anlatıcı",
+      "İlahi bakış açısı"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Kişilerin iç dünyasını ve geçmişini her yönüyle bilen anlatıcı hangi bakış açısına sahiptir?",
+    "a": [
+      "Nesnel kamera",
+      "Kahraman bakış açısı",
+      "İlahi (hâkim) bakış açısı",
+      "Sınırlı gözlemci",
+      "Dış gözlemci"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Bir anlatıcının yalnızca dışarıdan gözlemlenebilen davranışları aktarması hangi bakış açısıdır?",
+    "a": [
+      "Gözlemci bakış açısı",
+      "Bilinç akışı",
+      "Kahraman bakış açısı",
+      "İlahi bakış açısı",
+      "İç monolog"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Olay örgüsünü katı bir plana bağlamadan yazarken kahramanların yönünü keşfetmeyi tercih eden yazarın tutumu hangisidir?",
+    "a": [
+      "Kurgu sürecinde esnek ve keşfe açık olma",
+      "Bütün olayları önceden kesinleştirme",
+      "Anlatıyı olaydan arındırma",
+      "Yalnızca belge aktarma",
+      "Kahramanları tamamen dışlama"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Hikâye ve Dil Bilgisi",
+    "source": "BaDe v8 – kaynaklardan uyarlama ve doğrulanmış yazar bilgisi"
+  },
+  {
+    "q": "Aşağıdaki parçada hangi anlatım tekniği kullanılmıştır?\n\nKapıyı kapattım. Acaba beni görmüş müydü? Hayır, görse seslenirdi. Şimdi eve gitsem annem ne diyecek? Keşke hiç gelmeseydim.",
+    "a": [
+      "İç çözümleme",
+      "İç monolog",
+      "Geriye dönüş",
+      "Diyalog",
+      "Özetleme"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Anlatım Teknikleri",
+    "source": "BaDe v8 – özgün kısa metinlerden oluşturulan ek sorular"
+  },
+  {
+    "q": "Aşağıdaki parçada hangi anlatım tekniği kullanılmıştır?\n\nAli, arkadaşının sözlerine alınmıştı. Herkesin önünde küçük düşürüldüğünü düşünüyor, bu yüzden onunla konuşmaya cesaret edemiyordu.",
+    "a": [
+      "Bilinç akışı",
+      "Diyalog",
+      "İç monolog",
+      "İç çözümleme",
+      "Geriye dönüş"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Anlatım Teknikleri",
+    "source": "BaDe v8 – özgün kısa metinlerden oluşturulan ek sorular"
+  },
+  {
+    "q": "Aşağıdaki parçada hangi anlatım tekniği kullanılmıştır?\n\nSaat... Tren gecikti. Annemin mavi çantası, yağmur, o eski sokak... Anahtar nerede? Kuşlar neden bu kadar sessiz, çocukluğum...",
+    "a": [
+      "Betimleme",
+      "Bilinç akışı",
+      "Diyalog",
+      "İç çözümleme",
+      "Geriye dönüş"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Anlatım Teknikleri",
+    "source": "BaDe v8 – özgün kısa metinlerden oluşturulan ek sorular"
+  },
+  {
+    "q": "Aşağıdaki parçada hangi anlatım tekniği kullanılmıştır?\n\nBahçedeki salıncağı görünce on yıl öncesini hatırladı. Babası onu her akşam burada sallardı. O günlerde evin içi kahkahalarla dolardı.",
+    "a": [
+      "İç monolog",
+      "Özetleme",
+      "Geriye dönüş",
+      "Bilinç akışı",
+      "Diyalog"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Anlatım Teknikleri",
+    "source": "BaDe v8 – özgün kısa metinlerden oluşturulan ek sorular"
+  },
+  {
+    "q": "Aşağıdaki parçada hangi anlatım tekniği kullanılmıştır?\n\n— Neden bu kadar geç geldin? diye sordu annesi. — Otobüsü kaçırdım, dedi Elif. — Bir dahaki sefere haber ver.",
+    "a": [
+      "İç çözümleme",
+      "Bilinç akışı",
+      "Diyalog",
+      "Geriye dönüş",
+      "İç monolog"
+    ],
+    "correct": 2,
+    "topic": "12. Sınıf | Anlatım Teknikleri",
+    "source": "BaDe v8 – özgün kısa metinlerden oluşturulan ek sorular"
+  },
+  {
+    "q": "Aşağıdaki parçada hangi anlatım tekniği kullanılmıştır?\n\nMert, okulun kapısında durdu. İçeri girmek istemiyordu. Dün yaşadığı tartışmadan sonra arkadaşlarının kendisine nasıl davranacağını kestiremiyordu.",
+    "a": [
+      "İç çözümleme",
+      "İç monolog",
+      "Bilinç akışı",
+      "Diyalog",
+      "Geriye dönüş"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Anlatım Teknikleri",
+    "source": "BaDe v8 – özgün kısa metinlerden oluşturulan ek sorular"
+  },
+  {
+    "q": "Aşağıdaki parçada hangi anlatım tekniği kullanılmıştır?\n\nBeni bekler mi? Beklemez. Zaten neden beklesin? Bir özür dilemek bu kadar zor olmamalı. Hemen gitmeliyim.",
+    "a": [
+      "Geriye dönüş",
+      "İç monolog",
+      "Diyalog",
+      "Özetleme",
+      "İç çözümleme"
+    ],
+    "correct": 1,
+    "topic": "12. Sınıf | Anlatım Teknikleri",
+    "source": "BaDe v8 – özgün kısa metinlerden oluşturulan ek sorular"
+  },
+  {
+    "q": "Aşağıdaki parçada hangi anlatım tekniği kullanılmıştır?\n\nEski defteri açtığında ilkokulun ilk günü gözlerinin önüne geldi. Sınıfa korkuyla girmiş, öğretmeninin uzattığı eli çekinerek tutmuştu.",
+    "a": [
+      "Diyalog",
+      "Bilinç akışı",
+      "İç monolog",
+      "Geriye dönüş",
+      "İç çözümleme"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Anlatım Teknikleri",
+    "source": "BaDe v8 – özgün kısa metinlerden oluşturulan ek sorular"
+  },
+  {
+    "q": "Aşağıdaki parçada hangi anlatım tekniği kullanılmıştır?\n\nSokak lambası, kırık bardak, yarınki sınav... Koşmalı mı? Hayır, ayakkabılar... Babamın sesi, vapur düdüğü, unutulan mektup...",
+    "a": [
+      "Bilinç akışı",
+      "İç çözümleme",
+      "Diyalog",
+      "Geriye dönüş",
+      "Özetleme"
+    ],
+    "correct": 0,
+    "topic": "12. Sınıf | Anlatım Teknikleri",
+    "source": "BaDe v8 – özgün kısa metinlerden oluşturulan ek sorular"
+  },
+  {
+    "q": "Aşağıdaki parçada hangi anlatım tekniği kullanılmıştır?\n\nAnlatıcı, kahramanın arkadaşlarına güvenmek istediğini ancak geçmişte yaşadığı hayal kırıklıkları nedeniyle herkesten kuşkulandığını belirtiyordu.",
+    "a": [
+      "İç monolog",
+      "Diyalog",
+      "Geriye dönüş",
+      "İç çözümleme",
+      "Bilinç akışı"
+    ],
+    "correct": 3,
+    "topic": "12. Sınıf | Anlatım Teknikleri",
+    "source": "BaDe v8 – özgün kısa metinlerden oluşturulan ek sorular"
   }
 ]
