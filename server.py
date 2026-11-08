@@ -72,39 +72,67 @@ def load_questions():
 def save_questions(items):
  store_write('questions',items)
 QUESTIONS=load_questions()
-STATE={'pin':str(random.randint(100000,999999)),'host':secrets.token_urlsafe(32),'phase':'lobby','index':-1,'ends':0,'duration':25,'players':{},'questions':QUESTIONS,'answers':{},'round':0,'limit':min(10,len(QUESTIONS)),'disqualified':{},'blocked_names':set(),'allowed_rejoin':set()}
+STATE={'pin':str(random.randint(100000,999999)),'host':secrets.token_urlsafe(32),'phase':'lobby','index':-1,'ends':0,'duration':25,'players':{},'questions':QUESTIONS,'answers':{},'round':0,'limit':min(10,len(QUESTIONS)),'disqualified':{},'blocked_names':set(),'allowed_rejoin':set(),'competition_id':secrets.token_hex(8),'competition_name':'Yeni Yarışma'}
 
 # Persistent competition checkpoint. PostgreSQL is required on Render for durable storage.
 SESSION_FILE=BASE/'competition_state.json'
-def persist_competition():
- data={k:STATE[k] for k in ('pin','host','phase','index','duration','round','limit','questions','selected_topics') if k in STATE}
- data['roster']=STATE.get('roster',{})
- data['resume_open']=STATE.get('resume_open',False)
- data['disqualified']=STATE['disqualified']
- data['blocked_names']=list(STATE['blocked_names'])
- data['phase']='paused' if data['phase'] in ('question','reveal') else data['phase']
- # Save only completed rounds. An open question will be repeated on resumption.
- data['pending_question']=STATE['phase']=='question' or (STATE['phase']=='paused' and STATE.get('pending_question',False))
- if data['pending_question'] and data['index']>=0:
-  data['index']=STATE['index']
- if STATE['phase']=='reveal':data['index']=STATE['index']+1
+ARCHIVE_FILE=BASE/'competition_archive.json'
+def load_archive():
  try:
+  value=store_read('competition_archive') if DATABASE_URL else (json.loads(ARCHIVE_FILE.read_text(encoding='utf-8')) if ARCHIVE_FILE.exists() else {})
+  return value if isinstance(value,dict) else {}
+ except Exception as e:
+  print('Arşiv okunamadı:',e,flush=True);return {}
+ARCHIVE=load_archive()
+def competition_record():
+ data={k:STATE[k] for k in ('pin','phase','index','duration','round','limit','questions','selected_topics','competition_id','competition_name') if k in STATE}
+ data['roster']={name:dict(record) for name,record in STATE.get('roster',{}).items()}
+ for player in STATE['players'].values():
+  data['roster'].setdefault(player['name'],{'score':player['score'],'code':make_code()})['score']=player['score']
+ data['resume_open']=STATE.get('resume_open',False)
+ data['disqualified']=dict(STATE['disqualified'])
+ data['blocked_names']=list(STATE['blocked_names'])
+ data['pending_question']=STATE['phase']=='question' or (STATE['phase']=='paused' and STATE.get('pending_question',False))
+ if STATE['phase']=='reveal':data['index']=STATE['index']+1
+ if data['phase'] in ('question','reveal'):data['phase']='paused'
+ data['updated_at']=int(time.time())
+ return data
+def save_archive():
+ if DATABASE_URL:store_write('competition_archive',ARCHIVE)
+ else:
+  tmp=ARCHIVE_FILE.with_suffix('.tmp');tmp.write_text(json.dumps(ARCHIVE,ensure_ascii=False),encoding='utf-8');tmp.replace(ARCHIVE_FILE)
+def persist_competition():
+ try:
+  data=competition_record()
   if DATABASE_URL:store_write('competition',data)
   else:
    tmp=SESSION_FILE.with_suffix('.tmp');tmp.write_text(json.dumps(data,ensure_ascii=False),encoding='utf-8');tmp.replace(SESSION_FILE)
  except Exception as e:print('Yarışma kaydı başarısız:',e,flush=True)
+def restore_record(data):
+ for k in ('pin','index','duration','round','limit','questions','selected_topics','roster','disqualified','competition_id','competition_name'):
+  if k in data:STATE[k]=data[k]
+ STATE['blocked_names']=set(data.get('blocked_names',[]))
+ STATE['allowed_rejoin']=set()
+ STATE['players']={};STATE['answers']={};STATE['ends']=0
+ STATE['phase']='paused' if data.get('phase') in ('question','reveal','paused') else data.get('phase','lobby')
+ STATE['resume_open']=bool(data.get('resume_open',False))
+ STATE['pending_question']=bool(data.get('pending_question',False))
 def restore_competition():
  try:
   data=store_read('competition') if DATABASE_URL else (json.loads(SESSION_FILE.read_text(encoding='utf-8')) if SESSION_FILE.exists() else None)
-  if not isinstance(data,dict):return
-  for k in ('pin','host','index','duration','round','limit','questions','selected_topics','roster','disqualified'):
-   if k in data:STATE[k]=data[k]
-  STATE['blocked_names']=set(data.get('blocked_names',[]))
-  STATE['players']={};STATE['answers']={};STATE['ends']=0
-  STATE['phase']='paused' if data.get('phase') in ('question','reveal','paused') else data.get('phase','lobby')
-  STATE['resume_open']=bool(data.get('resume_open',False))
-  STATE['pending_question']=bool(data.get('pending_question',False))
+  if isinstance(data,dict):restore_record(data)
  except Exception as e:print('Yarışma geri yüklenemedi:',e,flush=True)
+def new_competition(name=''):
+ old=STATE['pin']
+ STATE.update(phase='lobby',index=-1,ends=0,answers={},round=STATE['round']+1,players={},roster={},resume_open=False,disqualified={},blocked_names=set(),allowed_rejoin=set(),questions=load_questions(),competition_id=secrets.token_hex(8),competition_name=clean(name,80) or 'Yeni Yarışma',pending_question=False)
+ STATE.pop('selected_topics',None)
+ STATE['limit']=min(10,len(STATE['questions']))
+ while STATE['pin']==old:STATE['pin']=str(random.randint(100000,999999))
+def archive_current():
+ if STATE.get('roster') or STATE['phase']!='lobby' or STATE['index']>=0:
+  record=competition_record()
+  ARCHIVE[record['competition_id']]=record
+  save_archive()
 def make_code():return secrets.token_hex(4).upper()
 restore_competition()
 
@@ -114,13 +142,14 @@ def current():
 
 def snapshot(token=None,host=False,origin=''):
  q=current();phase=STATE['phase'];data={'pin':STATE['pin'],'phase':phase,'index':STATE['index'],'total':STATE['limit'],'duration':STATE['duration'],'ends':STATE['ends'],'players':[{'name':p['name'],'score':p['score'],'answered':p['id'] in STATE['answers']} for p in STATE['players'].values()],
-'round':STATE['round'],'disqualified':[{'name':name,'reason':reason} for name,reason in STATE['disqualified'].items()] if host else [],'topics':sorted(set(SETTINGS.get('topics',[]))|{q.get('topic','Genel') for q in load_questions()}),'theme':SETTINGS.get('theme',{}),'rosterCount':len(STATE.get('roster',{})),'resumeOpen':STATE.get('resume_open',False)}
+'round':STATE['round'],'disqualified':[{'name':name,'reason':reason} for name,reason in STATE['disqualified'].items()] if host else [],'topics':sorted(set(SETTINGS.get('topics',[]))|{q.get('topic','Genel') for q in load_questions()}),'theme':SETTINGS.get('theme',{}),'rosterCount':len(STATE.get('roster',{})),'resumeOpen':STATE.get('resume_open',False),'competitionName':STATE.get('competition_name','Yeni Yarışma')}
 
  if q and phase in ('question','reveal','finished'):
   data['question']={'q':q['q'],'a':q['a']}
   if phase!='question':data['question']['correct']=q['correct']
  if host:
   data['roster']=[{'name':name,'score':v['score'],'code':v['code'],'joined':any(p['name']==name for p in STATE['players'].values())} for name,v in STATE.get('roster',{}).items()]
+  data['archive']=[{'id':cid,'name':rec.get('competition_name','Yarışma'),'phase':rec.get('phase','paused'),'index':rec.get('index',-1),'limit':rec.get('limit',0),'players':len(rec.get('roster',{})),'updated_at':rec.get('updated_at',0)} for cid,rec in sorted(ARCHIVE.items(),key=lambda x:x[1].get('updated_at',0),reverse=True)]
   data['host']=True
   data['joinUrl']=origin or ('http://'+lan_ip()+':'+str(PORT))
   data['answersCount']=len(STATE['answers'])
@@ -243,12 +272,12 @@ class Handler(BaseHTTPRequestHandler):
     if path=='/api/resume-play':
      if STATE['phase']!='lobby' or not STATE.get('resume_open'):raise ValueError('Devam için katılım lobisi açık değil')
      if not STATE['players']:raise ValueError('En az bir öğrenci yeniden katılmalı')
-     STATE['resume_open']=bool(data.get('resume_open',False))
+     STATE['resume_open']=False
      if STATE['index']>=STATE['limit']:STATE['phase']='finished'
      else:STATE['phase']='question';STATE['round']+=1;STATE['ends']=time.time()+STATE['duration'];STATE['answers']={}
      self.send({'ok':True});return
     if path=='/api/finish':
-     STATE['phase']='finished';STATE['players'].clear();STATE['answers'].clear();STATE['resume_open']=False
+     STATE['phase']='finished';STATE['answers'].clear();STATE['resume_open']=False
      self.send({'ok':True});return
     if path=='/api/start':
      if STATE['phase']!='lobby' or STATE.get('resume_open'):raise ValueError('Kayıtlı yarışmaya devam etmek için Devam Et düğmesini kullan')
@@ -284,13 +313,25 @@ class Handler(BaseHTTPRequestHandler):
       STATE['questions'].extend(random.sample(pool,extra))
      else:STATE['questions']=STATE['questions'][:requested]
      STATE['limit']=requested;self.send({'ok':True,'count':requested});return
-    if path=='/api/reset':
-     STATE['phase']='lobby';STATE['index']=-1;STATE['ends']=0;STATE['answers']={};STATE['round']+=1
-     old_pin=STATE['pin']
-     while STATE['pin']==old_pin:STATE['pin']=str(random.randint(100000,999999))
-     STATE['players'].clear();STATE['roster']={};STATE['resume_open']=False;STATE['disqualified'].clear();STATE['blocked_names'].clear();STATE['allowed_rejoin'].clear();STATE.pop('selected_topics',None)
-     STATE['questions']=load_questions();STATE['limit']=min(10,len(STATE['questions']))
+    if path=='/api/new-competition':
+     archive_current();new_competition(payload.get('name',''))
      self.send({'ok':True});return
+    if path=='/api/archive-open':
+     cid=clean(payload.get('id',''),64)
+     if cid not in ARCHIVE:raise ValueError('Arşivde yarışma bulunamadı')
+     archive_current()
+     record=ARCHIVE.pop(cid)
+     save_archive()
+     restore_record(record)
+     if STATE['phase']!='finished':
+      STATE['phase']='paused';STATE['resume_open']=False
+     self.send({'ok':True});return
+    if path=='/api/archive-delete':
+     cid=clean(payload.get('id',''),64)
+     if cid not in ARCHIVE:raise ValueError('Arşivde yarışma bulunamadı')
+     del ARCHIVE[cid];save_archive();self.send({'ok':True});return
+    if path=='/api/reset':
+     new_competition();self.send({'ok':True});return
     if path=='/api/questions':
      if STATE['phase']!='lobby':raise ValueError('Soruları düzenlemek için lobide ol')
      questions=payload.get('questions')
